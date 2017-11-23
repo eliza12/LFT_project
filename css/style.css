@@ -1,0 +1,10 @@
+.contents {
+	width: 800px;
+	height: 600px;
+	background: #f4f4f4;
+	user-select: none;
+}
+
+.contents::selection {
+	background: transparent;
+}
